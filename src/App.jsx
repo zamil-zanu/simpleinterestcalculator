@@ -12,7 +12,7 @@ function App() {
   const [isInvalidRate, setIsInvalidRate] = useState(false)
   const [isInvalidYear, setIsInvalidYear] = useState(false)
  
-  const [interest,setInterest]=useState("")
+  const [interest,setInterest]=useState(0)
 
 
   console.log(amount, rate, year);
