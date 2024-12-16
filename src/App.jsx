@@ -72,9 +72,9 @@ function App() {
     setRate("")
     setYear("")
     setInterest("")
-    isInvalidPrinciple(false)
-    isInvalidRate(false)
-    isInvalidYear(false)
+    setIsInvalidPrinciple(false)
+    setIsInvalidRate(false)
+    setIsInvalidYear(false)
   }
   return (
     <>
